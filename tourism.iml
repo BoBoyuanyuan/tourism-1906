@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
     <facet type="web" name="Web">
       <configuration>
         <descriptors>
@@ -9,27 +12,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
-        </sourceRoots>
-      </configuration>
-    </facet>
-    <facet type="Spring" name="Spring">
-      <configuration>
-        <fileset id="fileset" name="Spring  Tx" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/spring- tx.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/spring-mybatis.xml</file>
-        </fileset>
-        <fileset id="fileset2" name="Spring Mvc" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/spring-mvc.xml</file>
-        </fileset>
-        <fileset id="fileset3" name="Spring Druid" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/spring-druid.xml</file>
-        </fileset>
-        <fileset id="fileset4" name="Spring Context" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/spring-context.xml</file>
-        </fileset>
       </configuration>
     </facet>
   </component>
@@ -39,7 +21,6 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
